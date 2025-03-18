@@ -1,5 +1,8 @@
+// filepath: /Volumes/ExternalDisk/Git Projects/Portfolio Projects/vercel-main/frontend/tailwind.config.js
+import tailwindcssAnimate from 'tailwindcss-animate';
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -73,5 +76,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 }
