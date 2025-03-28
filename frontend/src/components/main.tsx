@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { Github, Cloud, Database, Box, Cpu, CloudLightning as Lightning, ArrowRight, Terminal } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
